@@ -1,0 +1,18 @@
+.imgContainer {
+	width: 500px;
+	height: 600px;
+	display: inline-block;
+	position: relative;
+
+}
+.img {
+	height: 500px;
+}
+.hinata {
+	position: absolute;
+	left: 0;
+}
+.neji {
+	position: absolute;
+	right: 0;
+}
