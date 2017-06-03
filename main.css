@@ -10,7 +10,19 @@
 }
 
 #spacer {
-	height: 100px;
+	height: 60px;
+}
+
+#banner {
+	background: black;
+	background-image: url("./img/naruto-banner.png");
+	background-position: right 0 center; 
+	background-repeat: no-repeat;
+}
+
+#bannerImg {
+	width: 30%;
+	height: 80%;
 }
 
 .imgContainer {
