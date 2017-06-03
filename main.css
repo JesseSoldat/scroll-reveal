@@ -1,18 +1,66 @@
+/*NAV*/
+.navbar-default {
+	background: #fff;
+	border: 0;
+}
+.navbar-brand {
+	font-size: 20px;
+	/*color: black !important;*/
+	font-weight: bold;
+}
+
+#spacer {
+	height: 100px;
+}
+
 .imgContainer {
 	width: 500px;
 	height: 600px;
 	display: inline-block;
 	position: relative;
+}
 
-}
-.img {
-	height: 500px;
-}
 .hinata {
+	height: 500px;
 	position: absolute;
 	left: 0;
+	bottom: 0;
 }
 .neji {
+	height: 500px;
 	position: absolute;
 	right: 0;
+	bottom: 0;
+}
+
+.hyuga {
+	height: 600px;
+	position: absolute;
+	left: 0;
+	/*bottom: 0;*/
+	z-index: -1;
+}
+
+
+#uchiha {
+	width: 700px;
+}
+.sasuke {
+	height: 420px;
+	position: absolute;
+	left: 0;
+	
+}
+
+.itachi {
+	height: 550px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.mangekyou {
+	position: absolute;
+	left: 0;
+	z-index: -1;
 }
